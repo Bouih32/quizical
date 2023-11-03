@@ -1,5 +1,5 @@
 import React from "react";
-import SingleQuestion from "./singleQuestion";
+import SingleQuestion from "./SingleQuestion";
 import { nanoid } from "nanoid";
 
 export default function Questions() {
