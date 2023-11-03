@@ -105,7 +105,7 @@ export default function Questions() {
       ) : null}
       {showScore && (
         <div className="scoreContainer">
-          <p>You have {score}/5 answers</p>
+          <p>You have {score}/5 correct answers</p>
           <button type="button" className="check" onClick={replayGame}>
             Play again
           </button>
